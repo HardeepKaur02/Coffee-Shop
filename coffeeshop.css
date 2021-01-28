@@ -1,0 +1,194 @@
+<style>
+.*{
+	box-sizing: border-box;
+	font-family:"Comic Sans Ms", "Lucida Handwriting",Arial, "Courier New" ,monospace; 	
+}
+body{
+	margin: 0px;
+	overflow-x: hidden;
+}
+.nav{
+	font-family:"Comic Sans Ms", "Lucida Handwriting",Arial, "Courier New" ,monospace;
+	font-size: 1em;
+}
+.coffee-list{
+	width: 100%;
+	font-family:"Comic Sans Ms", "Lucida Handwriting",Arial, "Courier New" ,monospace;
+	text-align: center;
+
+}
+.pricing-table{
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	background-color: pink;
+	border: 2px groove #FFFF00
+}
+.caption-heading{
+	color: red;
+	font-family: Castellar,"Brush Script MT",Arial;
+	font-size: 1.5em;
+}
+td,th{
+	border: 2px groove #FF0000;
+	text-align: center;
+	font-size: 2em;
+	font-family: "Bradley Hand ITC",Arial,Verdana,Helvetica;
+
+}
+th{
+	color: #330033;
+	font-weight: 900;
+}
+td{
+	font-weight: 800;
+}
+.card-list div:nth-child(odd){
+	color: #ffffff;
+	background-color: #4d0000 ;
+}
+.card-list div:nth-child(even){
+	background-color: #ffdd99 ;
+}
+.img{
+	width: 250px;
+	height: 215px;
+	border-radius: 8px;
+}
+.column{
+	margin-top: 2px;
+	display: inline-block;
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 19%;
+	padding: 1px;
+}
+.column:hover{
+	box-shadow: 0 0 3px 3px  #ff3300 ;
+}
+.tr-head:hover{
+	box-shadow: 0 0 3px 3px  #800055 ;
+}
+.tr-out-of-stock:hover{
+	box-shadow: 0 0 3px 3px  #ff3300 ;
+}
+.tr-in-stock:hover{
+	box-shadow: 0 0 3px 3px  #00b300 ;
+}
+dt{
+	font-family:"Comic Sans Ms", "Lucida Handwriting",Arial, "Courier New" ,monospace; 
+	color: white;
+	background-color: #4d0000;
+	width: 20%;
+	text-align: center;
+	font-size: 2em;
+}
+dd{
+	font-family: "Bradley Hand ITC",Arial,Verdana,Helvetica;
+	background-color:#ffdd99;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 500px;
+}
+dd:hover{
+	box-shadow: 0 0 3px 3px  #4d0000 ;
+}
+.f1{
+	background-color: white;
+	text-align: center;
+	font-family: "Bradley Hand ITC",Arial,Verdana,Helvetica;
+	margin-right: 2px;
+	border: 1px dotted black ;
+}
+.f2{
+	background-color: #272727;
+	text-align: center;
+	font-family: "Bradley Hand ITC",Arial,Verdana,Helvetica;
+	color: white;
+}
+[href]{
+	color: purple;
+}
+
+.header{
+	width: 100%;
+	background-color:#1a0000;
+	position: fixed;
+	margin-top: 0px;
+	z-index: 100;
+}
+
+.logo img{
+	width: 120px;
+	float: left;
+}
+.nav{
+	float: right;
+	height: 100%;
+}
+.nav a{
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	padding-top: 12%;
+	padding-right: 25px;
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+}
+
+.nav a:link{
+	text-decoration: none;
+	color: white;
+
+}
+.nav a:visited{
+	text-decoration: none;
+}
+
+.nav a:hover{
+	text-decoration: underline;	
+	color: hotpink;
+}
+.card-list{
+	padding: 100px;
+}
+.site-content{
+	position: absolute;
+	width: 100%;
+	padding-top: 100px;
+}
+.img-content{
+	background-image: url("bc.webp");
+	width: 100%;
+	height: 500px;
+	color: white;
+	text-align: left;
+	padding: 20px;
+	font-family: "Bradley Hand ITC";
+	font-weight: bold;
+}
+.dropdown{
+	padding-right: 25px;
+	position: relative;
+	display: inline-block;
+}
+.drop-content {
+	display: none;
+	position: absolute;
+	background-color: pink;
+	z-index: 1;
+	width: 100%;
+	overflow: auto;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,0.2);
+}
+.drop-content a{
+	display: block;
+	text-decoration: none;
+	color: purple;
+}
+.drop-content a:hover{
+	color:red;
+}
+.dropdown:hover .drop-content{
+	display: block;
+}
